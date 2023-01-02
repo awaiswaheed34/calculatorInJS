@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc {
+  background-color: antiquewhite;
+  margin-top: 100px;
+  display: inline;
+  justify-items: center;
+}
+
+.disp {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+
+  justify-content: right;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.numbers > div > div,
+.ops > div {
+  border: 1px solid black;
+
+  font-size: 40px;
+}
+.ops > div {
+  background-color: rgb(225, 150, 9);
+  padding: 18.5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  align-content: center;
+}
+.numbers {
+  background-color: gray;
+}
+
+.numbers > div {
+  display: flex;
+}
+
+.numbers > div > div {
+  padding: 40px;
+}
+
+.numbers > .f0 > .n0 {
+  width: 100%;
+}
